@@ -1,0 +1,103 @@
+.major-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.major-title {
+  background-color: #135b41ff;
+  color: white;
+  padding: 15px 30px;
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.major-section__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* --- 卡片样式 --- */
+.major-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  height: 500px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.major-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+/* 底部标题 */
+.major-card::after {
+  content: attr(data-major);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 2;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* 悬停时底部标题淡出 */
+.major-card:hover::after {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* --- 中央浮现文字框 --- */
+.major-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  width: 80%;
+  background: rgba(136, 206, 180, 0.92);
+  color: #fff;
+  padding: 30px 20px;
+  border-radius: 6px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.major-overlay h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.major-overlay p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.major-overlay .btn-more {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.major-overlay .btn-more:hover {
+  background: #fff;
+  color: #4fa384ff;
+}
+
+/* 悬停时浮现中央内容 */
+.major-card:hover .major-overlay {
+  opacity: 0.8;
+  transform: translate(-50%, -50%) scale(1);
+}

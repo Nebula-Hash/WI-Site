@@ -1,0 +1,63 @@
+/* ===== Banner 区域 ===== */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 585px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* 轮播容器：横向排列所有图片 */
+.banner__slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-out;
+}
+
+/* 单个轮播项 */
+.banner__slide {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 100%;
+}
+
+/* 每张图占据整个轮播项宽度 */
+.banner__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 为轮播图添加鼠标滑动支持 */
+.banner {
+  touch-action: pan-y;
+}
+
+/* 底部圆点导航 */
+.banner__dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.banner__dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner__dots span.active {
+  background-color: var(--light-green);
+  width: 14px;
+  height: 14px;
+}

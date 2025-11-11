@@ -1,0 +1,99 @@
+/* 页面整体布局 */
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* 顶部图片 */
+.detail-top-img {
+  width: 100%;
+  height: auto;
+}
+
+/* 主内容区 */
+.detail-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px 80px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+/* 标题 */
+#detail-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+/* 时间标签 */
+#detail-time {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+/* 正文内容区 */
+#detail-content {
+  font-size: 16px;
+  color: #444;
+  text-align: justify;
+}
+
+/* 正文中的段落 */
+#detail-content p {
+  margin-bottom: 1.2em;
+}
+
+/* 图片适配 */
+#detail-content img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+/* 小标题优化 */
+#detail-content h3,
+#detail-content h4 {
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  color: #111;
+  border-left: 4px solid #0077cc;
+  padding-left: 8px;
+}
+
+/* 链接样式 */
+#detail-content a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#detail-content a:hover {
+  text-decoration: underline;
+}
+
+/* 响应式微调 */
+@media (max-width: 768px) {
+  .detail-page {
+    margin: 20px 10px;
+    padding: 0 16px 60px;
+  }
+
+  #detail-title {
+    font-size: 22px;
+  }
+
+  .detail-top-img {
+    height: 160px;
+  }
+}

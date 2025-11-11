@@ -1,0 +1,175 @@
+<html lang="en">
+
+<!-- 导入css -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 轮播样式 -->
+    <link rel="stylesheet" href="../css/home/banner.css" />
+    <!-- 学院新闻样式 -->
+    <link rel="stylesheet" href="../css/home/news.css" />
+    <!-- 通知公告样式 -->
+    <link rel="stylesheet" href="../css/home/notice.css" />
+    <!-- 教学科研样式 -->
+    <link rel="stylesheet" href="../css/home/research.css" />
+    <!-- 专业介绍样式 -->
+    <link rel="stylesheet" href="../css/home/major.css" />
+    <!-- 合作交流样式 -->
+    <link rel="stylesheet" href="../css/home/cooperation.css" />
+
+</head>
+
+<!-- 轮播 Banner -->
+<section class="banner">
+    <!-- 轮播图片容器 -->
+    <div class="banner__slides">
+        <!-- 克隆最后一张图片用于无限循环 -->
+        <figure class="banner__slide clone">
+            <img src="https://www7.zzu.edu.cn/wizzu/images/JL9_7210.jpg" alt="学院风采2" />
+        </figure>
+        <figure class="banner__slide">
+            <img src="https://www7.zzu.edu.cn/wizzu/images/waiguan.png" alt="学院风采1" />
+        </figure>
+        <figure class="banner__slide">
+            <img src="https://www7.zzu.edu.cn/wizzu/images/JL9_7210.jpg" alt="学院风采2" />
+        </figure>
+        <!-- 克隆第一张图片用于无限循环 -->
+        <figure class="banner__slide clone">
+            <img src="https://www7.zzu.edu.cn/wizzu/images/waiguan.png" alt="学院风采1" />
+        </figure>
+    </div>
+
+    <!-- 轮播点 -->
+    <div class="banner__dots">
+        <span class="active"></span>
+        <span></span>
+    </div>
+</section>
+
+<!-- 主页内容模块 -->
+<main>
+
+    <!-- 学院新闻 -->
+    <section class="news-section">
+        <div class="main-header">
+            <h2 class="main-title">
+                NEWS
+            </h2>
+            <a href="#" class="main-more" data-page="/more" data-type="new">
+                MORE <span class="arrow">➜</span>
+            </a>
+        </div>
+
+        <div class="news__content" id="newsContainer">
+            <!-- 动态渲染区域 -->
+            <div class="data__loading">正在加载学院新闻...</div>
+        </div>
+    </section>
+
+
+    <!-- 通知公告 -->
+    <section class="notice-section">
+        <div class="main-header">
+            <h2 class="main-title">NOTICES</h2>
+            <a href="https://baidu.com" class="main-more">
+                MORE <span class="arrow">➜</span>
+            </a>
+        </div>
+
+        <div class="notice-section__list" id="noticeContainer">
+            <!-- 动态渲染区域 -->
+            <div class="data__loading">正在加载通知公告...</div>
+        </div>
+    </section>
+
+    <!-- 教学科研 -->
+    <section class="research-section">
+        <div class="main-header">
+            <h2 class="main-title">TEACHING AND RESEARCH</h2>
+            <a href="https://baidu.com" class="main-more">
+                MORE <span class="arrow">➜</span>
+            </a>
+        </div>
+
+        <div class="research-section__grid" id="researchContainer">
+            <!-- 动态渲染区域 -->
+            <div class="data__loading">正在加载教学科研...</div>
+        </div>
+    </section>
+
+    <!-- 专业介绍 -->
+    <section class="major-section">
+        <h2 class="major-title">MAJORED IN WELLINGTON COLLEGE
+            OF ZHENGZHOU UNIVERSITY</h2>
+
+        <div class="major-section__list">
+            <div class="major-card" data-major="The 2025 batch of industrial design professionals">
+                <img src="../images/major/1.png" alt="专业1" />
+                <div class="major-overlay">
+                    <h3>The 2025 batch of industrial design professionals</h3>
+                    <h4>Training plan</h4>
+                    <p>
+                        The industrial design program has introduced the high-quality educational resources and advanced
+                        educational concepts
+                        from Victoria University of Wellington in New Zealand, aiming to cultivate design talents who
+                        possess both innovative
+                        capabilities and an international perspective.
+                    </p>
+                    <a href="#" class="btn-more">—— View More</a>
+                </div>
+            </div>
+
+            <div class="major-card" data-major="Students majoring in architecture in the 2025 cohort">
+                <img src="../images/major/2.png" alt="专业2" />
+                <div class="major-overlay">
+                    <h3>Students majoring in architecture in the 2025 cohort</h3>
+                    <h4>Training plan</h4>
+                    <p>
+                        The architecture major focuses on urban planning and architectural design, aiming to cultivate
+                        high-quality
+                        professionals who possess the skills of architectural innovation, teamwork, and international
+                        communication.
+                    </p>
+                    <a href="#" class="btn-more">—— View More</a>
+                </div>
+            </div>
+
+            <div class="major-card" data-major="Graduates of the Landscape Architecture program in the year 2025">
+                <img src="../images/major/3.png" alt="专业3" />
+                <div class="major-overlay">
+                    <h3>Graduates of the Landscape Architecture program in the year 2025</h3>
+                    <h4>Training plan</h4>
+                    <p>
+                        The landscape architecture major is oriented towards ecological design and sustainable
+                        development, aiming to cultivate
+                        landscape planning and design talents who possess both artistic aesthetics and ecological
+                        awareness.
+                    </p>
+                    <a href="#" class="btn-more">—— View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 合作交流 -->
+    <section class="cooperation-section">
+        <div class="main-header">
+            <h2 class="main-title">COOPERATION AND EXCHANGE</h2>
+            <a href="https://baidu.com" class="main-more">
+                MORE <span class="arrow">➜</span>
+            </a>
+        </div>
+
+        <div class="cooperation-section__grid" id="cooperationContainer">
+            <!-- 动态渲染区域 -->
+            <div class="data__loading">正在加载合作交流...</div>
+        </div>
+    </section>
+
+
+</main>
+
+</html>

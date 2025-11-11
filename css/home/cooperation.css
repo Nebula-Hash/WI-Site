@@ -1,0 +1,73 @@
+/* 合作交流模块样式 */
+.cooperation-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.cooperation-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.cooperation-item {
+  display: flex;
+  align-items: stretch;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cooperation-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* 日期部分样式 */
+.cooperation-date {
+  background-color: #135b41ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100px;
+}
+
+.date-number {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.date-month {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* 内容部分样式 */
+.cooperation-content {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.cooperation-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+
+  /* === 行数限定 && 超出省略 === */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 限制显示2行 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

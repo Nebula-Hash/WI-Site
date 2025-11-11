@@ -1,0 +1,87 @@
+/* ===== 通知公告模块 ===== */
+.notice-section {
+  width: 100%;
+  margin: 80px auto;
+}
+
+/* 内容四列布局 */
+.notice-section__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+/* 单个卡片 */
+.notice-card {
+  padding: 24px 22px 36px;
+  border-right: 1px solid #eaeaea;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  background-color: #fff;
+}
+
+.notice-card:hover {
+  background-color: #f9f9f9;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.notice-card:last-child {
+  border-right: none;
+}
+
+/* 标题 */
+.notice-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #1a2e2e;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 限制两行 */
+  -webkit-box-orient: vertical;
+}
+
+/* 摘要 */
+.notice-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #4b5857;
+  margin: 10px 0 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* 限制四行 */
+  -webkit-box-orient: vertical;
+}
+
+/* 日期 */
+.notice-date {
+  display: inline-block;
+  background: #4c837a;
+  color: #fff;
+  padding: 5px 14px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* 响应式适配 */
+@media (max-width: 1024px) {
+  .notice-section__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .notice-section__list {
+    grid-template-columns: 1fr;
+  }
+  .notice-card {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+  }
+}

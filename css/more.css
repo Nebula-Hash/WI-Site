@@ -1,0 +1,60 @@
+/* 页面整体布局 */
+.more-page {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto 60px;
+  font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #333;
+}
+
+/* 顶部图片 */
+.more-top-img {
+  width: 100%;
+  height: auto;
+}
+
+/* === 数据列表区 === */
+.more-list {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 10px 0;
+}
+
+.more-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.more-item:last-child {
+  border-bottom: none;
+}
+
+.more-item:hover {
+  background-color: #f9f9f9;
+  transform: translateX(2px);
+}
+
+/* === 标题文字 === */
+.more-item-title {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* === 箭头符号 === */
+.more-arrow {
+  font-size: 16px;
+  color: #666;
+  margin-left: 10px;
+}

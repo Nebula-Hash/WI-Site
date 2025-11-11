@@ -1,0 +1,65 @@
+/* ===== 全局基础样式 ===== */
+
+:root {
+  --max-width: 1200px;
+}
+
+/* 页面通用布局 */
+main {
+  width: 100%;
+  max-width: var(--max-width);
+
+  /* 水平居中 */
+  margin: 0 auto;
+  /* 内容与边框边距 */
+  padding: 2rem 1rem;
+}
+
+/* section {
+  margin-bottom: 4rem;
+} */
+
+/* 标题风格 */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.main-more {
+  color: var(--primary-green, #1b4d3e);
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.main-more:hover {
+  color: var(--light-green, #3ca374);
+}
+
+.main-more .arrow {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+.main-more:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* 加载状态 */
+.data__loading {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 16px;
+  color: #777;
+}
