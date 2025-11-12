@@ -34,7 +34,7 @@ export function initResearch() {
             <a href="#" 
                class="research-img-card" 
                data-page="/detail"
-               data-type="research"
+               data-type="Teaching"
                data-id="${item.id}">
                 <img src="${item.imgUrl}" alt="${item.title}" />
                 <div class="research-content">
@@ -49,7 +49,7 @@ export function initResearch() {
             <a href="#" 
                class="text-card"
                data-page="/detail"
-               data-type="research"
+               data-type="Teaching"
                data-id="${item.id}">
                 <div class="research-content">
                     <h3>${item.title}</h3>

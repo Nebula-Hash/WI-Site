@@ -27,7 +27,7 @@ export function initNotice() {
         }
 
         const html = notices.map(item => `
-      <a href="#" class="notice-card" data-page="/detail" data-type="notice" data-id="${item.id}">
+      <a href="#" class="notice-card" data-page="/detail" data-type="notices" data-id="${item.id}">
         <h3>${item.title}</h3>
         <p>${item.text}</p>
         <div class="notice-date">${item.time}</div>
