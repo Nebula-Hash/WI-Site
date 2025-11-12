@@ -31,9 +31,20 @@ export function initNews() {
     const main = mainData.news[0] || {};
     const list = listData.news || [];
 
+    // const mainHTML = `
+    //         <div class="news__main">
+    //             <a href="#" class="news__main-link" data-page="/detail" data-type="new" data-id="${main.id}">
+    //                 <img src="${main.imgUrl}" alt="${main.title}">
+    //                 <div class="news__main-text">
+    //                     <h3>${main.title}</h3>
+    //                     <p>${main.text}</p>
+    //                 </div>
+    //             </a>
+    //         </div>
+    //     `;
     const mainHTML = `
             <div class="news__main">
-                <a href="#" class="news__main-link" data-page="/detail" data-type="new" data-id="${main.id}">
+                <a class="news__main-link" >
                     <img src="${main.imgUrl}" alt="${main.title}">
                     <div class="news__main-text">
                         <h3>${main.title}</h3>
