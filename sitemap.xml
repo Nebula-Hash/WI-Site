@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- 主页 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- 首页内容 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/home</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- 学院概况页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=about&amp;id=introduction</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 学院领导页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=about&amp;id=leadership</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 组织机构页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=about&amp;id=organization</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 文化标识页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=about&amp;id=culture</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- 师资队伍页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=faculty&amp;id=administrative</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 专任教师页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=faculty&amp;id=fulltime</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 外籍教师页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=faculty&amp;id=foreign</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- 教学科研页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=research&amp;id=institutions</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 科研动态页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/more?type=research</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 科研成果页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=research&amp;id=achievements</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 人才培养页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=programs&amp;id=majors</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 培养方案页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=programs&amp;id=training</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 教学活动页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/more?type=teaching</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 合作交流页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=cooperation&amp;id=domestic</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 国际交流页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=cooperation&amp;id=international</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 校企合作页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=cooperation&amp;id=enterprise</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- 党团工学页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=campus&amp;id=party</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- 共青团工作页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=campus&amp;id=youth</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- 工会工作页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=campus&amp;id=union</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- 理论学习页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/more?type=theory</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- 招生就业页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=admission&amp;id=undergraduate</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 研究生招生页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=admission&amp;id=graduate</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 就业信息页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/more?type=employment</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 新闻列表页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/more?type=news</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 公告列表页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/more?type=notices</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 专业详情页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=major&amp;id=industrial</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 建筑学专业页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=major&amp;id=architecture</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 风景园林专业页面 -->
+  <url>
+    <loc>https://www7.zzu.edu.cn/wizzu/#/detail?type=major&amp;id=landscape</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+</urlset>
