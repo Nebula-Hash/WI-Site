@@ -52,14 +52,19 @@ body {
 /* 正文中的段落 */
 #detail-content p {
   margin-bottom: 1.2em;
+  text-indent: 2em; /* 首行缩进 */
 }
 
-/* 图片适配 */
+/* 正文图片：居中显示并保持自适应 */
 #detail-content img {
   display: block;
-  max-width: 100%;
-  margin: 20px auto;
+  margin: 20px auto; /* 水平居中 */
+  max-width: 60%; /* 适应容器宽度 */
+  height: auto; /* 保持比例 */
   border-radius: 6px;
+
+  /* 新增增强：确保某些设备下也能稳定居中 */
+  text-align: center;
 }
 
 /* 小标题优化 */
