@@ -1,9 +1,15 @@
 // === 路由模块 ===
 
 // 初始化模块
-import { initHome } from '../modules/home/home.js';
-import { loadDetailData } from '../modules/details.js';
-import { loadMoreData } from '../modules/more.js';
+import { initBanner } from './js/modules/home/banner.js';
+import { initNews } from './js/modules/home/news.js';
+import { initCooperation } from './js/modules/home/cooperation.js';
+import { initNotice } from './js/modules/home/notice.js';
+import { initResearch } from './js/modules/home/research.js';
+
+import { loadDetailData } from './js/modules/details.js';
+
+import { loadMoreData } from './js/modules/more.js';
 
 
 // HTML页面路由表
@@ -16,7 +22,11 @@ const routes = {
 // 页面初始化函数表
 const pageInits = {
     "/home": () => {
-        initHome();
+        initBanner();
+        initNews();
+        initCooperation();
+        initNotice();
+        initResearch();
     },
     "/detail": params => {
         loadDetailData(params);
@@ -26,7 +36,7 @@ const pageInits = {
     }
 };
 
-export default function startRouter() {
+function startRouter() {
     // 防止 Hash 监听重复触发
     let isHashUpdating = false;
 
@@ -41,6 +51,7 @@ export default function startRouter() {
 
         try {
             const response = await fetch(url);
+            // console.log("请求的 本地URL：", url);
             const html = await response.text();
             container.innerHTML = html;
 
@@ -98,3 +109,6 @@ export default function startRouter() {
         init(); // DOM 已加载时主动执行
     }
 }
+
+// 启动路由
+startRouter();
