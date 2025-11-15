@@ -1,9 +1,12 @@
 /* ============ 基础布局 ============ */
 .header {
+  position: fixed; /* 页头悬浮 */
+  top: 0;
+  left: 0;
   width: 100%;
-  position: relative;
-  z-index: 100;
-  display: block;
+  z-index: 9999;
+  background: transparent; /* 透明背景 */
+  pointer-events: auto;
 }
 
 .top__area {
@@ -25,17 +28,19 @@
 }
 
 .header__main {
-  position: absolute;
-  top: 42px;
+  position: relative;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
   padding: 0 2rem;
-  /* background: linear-gradient(135deg, #2c6b56 0%, #1b4e3f 100%); */
   min-height: 120px;
+
+  background: transparent;
 }
 
 .header__logo {
