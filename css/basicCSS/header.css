@@ -1,6 +1,6 @@
 /* ============ 基础布局 ============ */
 .header {
-  position: fixed; /* 页头悬浮 */
+  position: absolute; /* 随页面上滑 */
   top: 0;
   left: 0;
   width: 100%;
